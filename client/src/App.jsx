@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import {Route,Routes} from 'react-router-dom  '; // Assuming you have a Routes component for routing
+import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Movies from './pages/Movies';
 import SeatALayout from './pages/SeatALayout';
