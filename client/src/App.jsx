@@ -9,6 +9,7 @@ import MyBooking from './pages/MyBooking';
 import Favorites from './pages/Favorites';
 import { useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+import Footer from './components/Footer';
  
 const App = () => {
 
@@ -29,6 +30,8 @@ const App = () => {
 
 
       </Routes>
+            {!isAdminRoute && <Footer/>}
+
     </>
   )
 }
