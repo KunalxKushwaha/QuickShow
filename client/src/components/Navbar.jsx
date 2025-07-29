@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { assets } from '../assets/assets'
-import { MenuIcon } from 'lucide-react'
+import { MenuIcon, SearchIcon } from 'lucide-react'
 
 const Navbar = () => {
   return (
@@ -11,7 +11,10 @@ const Navbar = () => {
       </Link>
 
       <div></div>
-      <div></div>
+      <div>
+        <SearchIcon />
+        <div></div>
+      </div>
 
       <MenuIcon className='max-md:ml-4 md:hidden w-8 h-8 cursor-pointer' />
 
